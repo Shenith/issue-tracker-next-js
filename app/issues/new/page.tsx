@@ -1,12 +1,5 @@
 "use client";
-import {
-  Button,
-  Callout,
-  Spinner,
-  Text,
-  TextArea,
-  TextField,
-} from "@radix-ui/themes";
+import { Button, Callout, Spinner, TextField } from "@radix-ui/themes";
 import React, { useState } from "react";
 import { useForm, SubmitHandler, Controller } from "react-hook-form";
 import SimpleMDE from "react-simplemde-editor";
